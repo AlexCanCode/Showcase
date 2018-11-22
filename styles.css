@@ -1,5 +1,14 @@
+nav {
+	font-size: 1.25rem;
+}
+
+#theme-toggle {
+
+}
+
 #bio {
-	margin-top: 1%;	
+	margin-top: 5%;	
+	/*border: red solid;*/
 }
 
 #bio-photo {
@@ -9,3 +18,9 @@
 #bio-text {
 	text-align: center;
 }
+
+.fa-chevron-down {
+	transform: scale(3.5,3);
+/*	-webkit-transform: scale(1.5,1); -moz-transform: scale(1.5,1); -ms-transform: scale(1.5,1); -o-transform: scale(1.5,1); transform: scale(1.5,1);*/
+}
+
