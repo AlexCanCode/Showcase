@@ -20,7 +20,24 @@ nav {
 }
 
 .fa-chevron-down {
+	position: relative;
 	transform: scale(3.5,3);
+	animation: bouncearrow 2s 1;
 /*	-webkit-transform: scale(1.5,1); -moz-transform: scale(1.5,1); -ms-transform: scale(1.5,1); -o-transform: scale(1.5,1); transform: scale(1.5,1);*/
+	cursor: pointer;
 }
+
+@keyframes bouncearrow {
+	0% {top: 0px;}
+	25% {top: 20px;}
+	50% {top: 0px;}
+	75% {top: 10px;}
+	100% {top: 0px;}
+}
+
+h4{
+	text-align: center;
+}
+
+
 
