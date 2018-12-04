@@ -16,7 +16,16 @@
 - get proper picture 
 - consider if you really want button animation (perhaps make shorter)
 - transition all styles over to the css sheet and clean up as needed 
+- consider adding some kind of transition in animaiton or "thing"
+- Strike through animation on top links (change their color from that they are now too)
+- Perhaps, go with bright colored stripe (very thin) on top and then a same colored header - for consideration
+- have icons to things like facebook, linked in, and other things in footer? 
+- Link chevron should be smooth action and not just an abrupt arrival at the bookmark
+- Bad Pun Generator
 
+--- Useful Sites for Inspiration ---
+ - Cool project cards - https://www.harveydelaney.com/
+ - 
 
 
 */
