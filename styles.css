@@ -50,5 +50,16 @@ h4{
 	margin: 20px 0 0 0;
 }
 
+.card-img-top { /*READ UP ON TRANSITION AND MAKE BLUR EFFECT SMOOTHER*/
+	  -webkit-webkit-transition:all 1.5s ease;
+      -moz-webkit-transition:all 1.5s ease;
+      -ms-webkit-transition:all 1.5s ease;
+      -o-webkit-transition:all 1.5s ease;
+}
+
+.card-img-top:hover{
+   -webkit-filter:blur(4px);
+       }
+
 
 
