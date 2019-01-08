@@ -59,7 +59,12 @@ h4{
 }
 
 .project-card:hover {
-	box-shadow: 0 0 11px
+	box-shadow: 0 0 11px;
+	cursor: pointer;
+}
+
+.project-card h1{
+
 }
 
 
