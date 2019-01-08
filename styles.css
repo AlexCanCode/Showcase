@@ -50,12 +50,18 @@ h4{
 	margin: 20px 0 0 0;
 }
 
+.project-container {
+	display: flex;
+}
+
 .project-card {
 	max-width: 29%;
 	min-height: 400px;
 	margin-right: 2%;
+	margin-bottom: 2%;
 	transition: box-shadow .4s;
 	box-shadow: 0 0 2px;
+	text-align: center;
 }
 
 .project-card:hover {
@@ -66,6 +72,39 @@ h4{
 .project-card h1{
 
 }
+
+.icon {
+  font-size: .9rem;
+  display: inline-flex;
+  background: #D8D8D8;
+  border-radius: 3px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  max-height: 7%;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+
+.react {
+  background: #BAD5F5;
+}
+
+.express {
+  background: #F2C986;
+}
+
+.node {
+  background: #E1C1C1;
+}
+
+.python {
+  background: #EADD86;
+}
+
+.django {
+  background: #AFEAE5;
+}
+
 
 
 
