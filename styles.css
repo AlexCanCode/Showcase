@@ -2,8 +2,14 @@ html {
   scroll-behavior: smooth;
 }
 
-nav {
+.nav {
 	font-size: 1.25rem;
+	background-color: #005ba9;
+	height: 10vh;
+}
+
+.nav a {
+
 }
 
 #theme-toggle {
@@ -11,8 +17,25 @@ nav {
 }
 
 #bio {
-	margin-top: 5%;	
-	/*border: red solid;*/
+    background-color: #f4b93d;
+}
+
+.section-block {
+	height:90vh;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.bio-row {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 #bio-photo {
@@ -21,6 +44,11 @@ nav {
 
 #bio-text {
 	text-align: center;
+	font-family: Roboto;
+}
+
+#name {
+	margin-top: 0;
 }
 
 .fa-chevron-down {
@@ -51,14 +79,17 @@ h4{
 }
 
 .project-container {
-	display: flex;
+  display: flex;
+/*  flex-direction: row;
+  align-items: stretch;*/
+  justify-content: center;
 }
 
 .project-card {
 	max-width: 29%;
 	min-height: 400px;
 	margin-right: 2%;
-	margin-bottom: 2%;
+	margin-bottom: 2%;	
 	transition: box-shadow .4s;
 	box-shadow: 0 0 2px;
 	text-align: center;
