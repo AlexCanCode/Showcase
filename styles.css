@@ -4,12 +4,13 @@ html {
 
 .nav {
 	font-size: 1.25rem;
-	background-color: #005ba9;
+	background-color: #fff;
 	height: 10vh;
 }
 
 .nav > a {
 	line-height: 7.5vh;
+	color: #846075;
 }
 
 #theme-toggle	 {
@@ -30,11 +31,25 @@ html {
 }
 
 #bio {
-    background-color: #f4b93d;
+    background-color: #383F51; /*OR #414770*/
+}
+
+.landing-block {
+	height:90vh;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    padding: 0;
 }
 
 .section-block {
-	height:90vh;
+	display: flex;
+	flex-direction: column;
+	min-height:123vh;
     width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -57,7 +72,7 @@ html {
 
 #bio-text {
 	text-align: center;
-	font-family: Roboto;
+	font-family: Montserrat;
 }
 
 #name {
@@ -83,29 +98,35 @@ html {
 	100% {top: 0px;}
 }
 
-h4{
+.headers {
+	padding-top: 5%;
 	text-align: center;
+	color: #383F51;
+	font-size: 3rem;
 }
 
-#connect-block {
-	margin: 20px 0 0 0;
+#portfolio-block {
+	background-color: #ED474A;
 }
 
 .project-container {
   display: flex;
-/*  flex-direction: row;
-  align-items: stretch;*/
+  flex-flow: row wrap;
   justify-content: center;
 }
 
 .project-card {
-	max-width: 29%;
+	flex: 0 25%;
+	background-color: #383F51;
+	color: #ED474A;
 	min-height: 400px;
 	margin-right: 2%;
 	margin-bottom: 2%;	
 	transition: box-shadow .4s;
 	box-shadow: 0 0 2px;
 	text-align: center;
+	padding: 2% 2% 0 2%;
+	border-radius: 5%;
 }
 
 .project-card:hover {
@@ -120,34 +141,20 @@ h4{
 .icon {
   font-size: .9rem;
   display: inline-flex;
-  background: #D8D8D8;
+  background-color: #DDDBF1;
   border-radius: 3px;
   margin-right: 5px;
   margin-bottom: 15px;
   max-height: 7%;
   border-radius: 5px;
-  padding: 5px 5px;
+  padding: 2.5%;
 }
 
-.react {
-  background: #BAD5F5;
+#connect-block {
+	text-align: center;
+	padding: 1rem 0;
 }
 
-.express {
-  background: #F2C986;
-}
-
-.node {
-  background: #E1C1C1;
-}
-
-.python {
-  background: #EADD86;
-}
-
-.django {
-  background: #AFEAE5;
-}
 
 
 
