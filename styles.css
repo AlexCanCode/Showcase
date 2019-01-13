@@ -8,12 +8,25 @@ html {
 	height: 10vh;
 }
 
-.nav a {
-
+.nav > a {
+	line-height: 7.5vh;
 }
 
-#theme-toggle {
+#theme-toggle	 {
+	text-decoration: none;
+	padding: .3125rem 1rem;
+	transition: background-color .3s;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s
+}
 
+#theme-toggle:hover {
+	background-color: rgba(0,0,0,0.1);
+	cursor: pointer;
+	text-decoration: none;
+	padding: .3125rem 1rem;
 }
 
 #bio {
