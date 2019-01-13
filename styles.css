@@ -88,6 +88,7 @@ html {
 		-ms-transform: scale(3.5, 3); 
 		-o-transform: scale(3.5, 3);
 	cursor: pointer;
+	color: #ED474A;
 }
 
 @keyframes bouncearrow {
