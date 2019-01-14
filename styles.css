@@ -92,9 +92,13 @@ html {
 	margin-top: 2.5%;
 }
 
+#arrow-container {
+	width: 100%;
+	text-align: center;
+}
+
 .fa-chevron-down {
 	position: relative;
-	transform: scale(3.5,3);
 	animation: bouncearrow 2s 1;
 		-webkit-transform: scale(3.5, 3); 
 		-moz-transform: scale(3.5, 3); 
