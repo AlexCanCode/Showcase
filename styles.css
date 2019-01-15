@@ -18,7 +18,7 @@ html {
 
 #theme-toggle	 {
 	text-decoration: none;
-	padding: 2rem 1rem;
+	padding: 1rem 1rem;
 	transition: background-color .3s;
     transition-property: background-color;
     transition-duration: 0.3s;
@@ -30,7 +30,7 @@ html {
 	background-color: rgba(0,0,0,0.1);
 	cursor: pointer;
 	text-decoration: none;
-	padding: 2rem 1rem;
+	padding: 1rem 1rem;
 }
 
 nav.navbar.shrink {  
@@ -59,7 +59,7 @@ nav.navbar.shrink#theme-toggle:hover {
 
 .section-block {
 	display: flex;
-	flex-direction: column;
+	flex-direction: column; /*This may be not necessary*/
 	min-height:123vh;
     width: 100%;
     -webkit-background-size: cover;
@@ -196,6 +196,20 @@ nav.navbar.shrink#theme-toggle:hover {
 
 .exp-section{
 	background-color: #fff;
+}
+
+#exp-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.exp-box {
+	width: 40%; /*MIGHT NEED TO STIPULATE FLEX ITEM INSTEAD - could be better practice*/
+}
+
+#job-descriptions{
+	padding: 5%;
 }
 
 #connect-block {
