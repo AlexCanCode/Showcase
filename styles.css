@@ -37,8 +37,12 @@ nav.navbar.shrink {
 	height: 5vh;
 }
 
-nav.navbar.shrink#theme-toggle:hover {
-	padding: .5rem .25rem;
+nav.navbar.shrink #theme-toggle {
+	padding: .5% 1%;
+}
+
+nav.navbar.shrink #theme-toggle:hover {
+	padding: .5% 1%;
 }
 
 #bio {
@@ -75,10 +79,6 @@ nav.navbar.shrink#theme-toggle:hover {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
-}
-
-#bio-photo {
-	border-radius: 50%;
 }
 
 #bio-text {
@@ -210,6 +210,17 @@ nav.navbar.shrink#theme-toggle:hover {
 
 #job-descriptions{
 	padding: 5%;
+	color: #383F51;
+}
+
+#photo-container {
+	text-align: center;
+}
+
+#bio-photo {
+	border-radius: 50%;
+	height: 70%;
+	margin-top: 10%;
 }
 
 #connect-block {
