@@ -1,4 +1,4 @@
-/*E9F1F7 DCEDFF 009DDC 009B72 FDECEF*/
+/*E9F1F7 DCEDFF 009DDC 009B72 FDECEF #8884FF #008DD5; #49306B;*/
 html {
   scroll-behavior: smooth;
 }
@@ -13,7 +13,7 @@ html {
 
 .nav > a {
 	line-height: 7.5vh;
-	color: #846075;
+	color: #8884FF;
 }
 
 #theme-toggle	 {
@@ -96,7 +96,6 @@ nav.navbar.shrink #theme-toggle:hover {
 	padding: 4px 8px;
 	/*border-radius: 25%; creates a kinda cool effect, but may not be what I am going for*/
 }
- 
 
 #title-line {
 	margin-top: 2.5%;
@@ -182,6 +181,13 @@ nav.navbar.shrink #theme-toggle:hover {
 	border-radius: 5%;
 }
 
+.img-wrapper img:hover {
+      opacity: 1;
+      -webkit-filter: blur(3px);
+      filter: blur(3px);
+      transition-duration: .3s;
+    }
+
 .icon {
   font-size: .9rem;
   display: inline-flex;
@@ -223,20 +229,19 @@ nav.navbar.shrink #theme-toggle:hover {
 	margin-top: 10%;
 }
 
-#connect-block {
-	text-align: center;
-	padding: 1rem 0;
-	margin-top: 2.5%; 
-	background-color: #88D9E6;
-}
-
-#connect-block h4 {
-	color: #414770;
-}
-
 footer {
 	background-color: #383F51;
 	color: #ED474A;
+	min-height: 50vh;
+}
+
+footer h4 {
+	text-align: center;
+}
+
+.footer-copyright {
+	position: relative;
+	bottom: 0;
 }
 
 
