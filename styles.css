@@ -208,6 +208,7 @@ nav.navbar.shrink #theme-toggle:hover {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
+	height: 100vh;
 }
 
 .exp-box {
@@ -225,7 +226,7 @@ nav.navbar.shrink #theme-toggle:hover {
 
 #bio-photo {
 	border-radius: 50%;
-	height: 70%;
+	height: 50%;
 	margin-top: 10%;
 }
 
